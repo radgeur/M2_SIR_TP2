@@ -22,7 +22,7 @@ public class Main {
 			currentLine = scan.next();
 			splitLine = currentLine.split(";");
 			for(int i=0; i<splitLine.length;i++){
-				eachProductSum[i] = Integer.parseInt(splitLine[i]);
+				eachProductSum[i] += Integer.parseInt(splitLine[i]);
 			}
 		}
 		
