@@ -1,4 +1,4 @@
 language : java
 
 script :
-    - cd src && javac -d ../bin Main.java
+    - cd src && javac Main.java
